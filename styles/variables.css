@@ -1,1 +1,10 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-family: "Inter-Variable";
+  --accent-font-family: "PressStart2P-Regular";
+  --main-wgth: 400;
+  --accent-wgth: 700;
+  --themes-background: #fff;
+  --accent-color: #000;
+  
+}
