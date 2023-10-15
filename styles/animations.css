@@ -12,3 +12,26 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes menu {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes opacity-60 {
+  to {
+    opacity: 0.6;
+  }
+}
+
+
+@keyframes button-hover {
+  50% {
+
+  }
+}

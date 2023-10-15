@@ -13,6 +13,9 @@
   --bg-gradient: repeating-linear-gradient(0deg, #d3d3d3 0 2px , rgb(211 211 211 / 0) 2px 4px),
   repeating-linear-gradient(90deg, #d3d3d3 0 2px , rgb(211 211 211 / 0) 2px 4px),
   repeating-linear-gradient(180deg, #e7e7e7 0 0.01%, #e7e7e7 0.01%, #1a1a1a );
+  --stroke-color: #fff;
+  --hover-color: #000;
+  --button-color-hover: #fff;
 }
 
 :root.theme-dark {
@@ -23,16 +26,10 @@
   --bg-gradient: repeating-linear-gradient(0deg, #000 0 2px , transparent 2px 4px),
   repeating-linear-gradient(90deg, #000 0 2px , transparent 2px 4px),
   repeating-linear-gradient(180deg, #007f0c , #004306 );
+  --stroke-color: #000;
+  --hover-color: #fff;
+  --button-color-hover: #00cc14;
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    --main-wgth: 400;
-    --accent-wgth: 700;
-    --themes-background: #fff;
-    --accent-color: #000;
-  }
-} */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -43,5 +40,8 @@
     --bg-gradient: repeating-linear-gradient(0deg, #000 0 2px , transparent 2px 4px),
     repeating-linear-gradient(90deg, #000 0 2px , transparent 2px 4px),
     repeating-linear-gradient(180deg, #007f0c , #004306 );
+    --stroke-color: #000;
+    --hover-color: #fff;
+    --button-color-hover: #00cc14;
   }
 }
