@@ -16,6 +16,8 @@
   --stroke-color: #fff;
   --hover-color: #000;
   --button-color-hover: #fff;
+  --heart-contour-color: #000;
+  --hear-sparks-color: #FF0000;
 }
 
 :root.theme-dark {
@@ -29,6 +31,8 @@
   --stroke-color: #000;
   --hover-color: #fff;
   --button-color-hover: #00cc14;
+  --heart-contour-color: #00cc14;
+  --hear-sparks-color: #FF0000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,5 +47,7 @@
     --stroke-color: #000;
     --hover-color: #fff;
     --button-color-hover: #00cc14;
+    --heart-contour-color: #00cc14;
+    --hear-sparks-color: #FF0000;
   }
 }
