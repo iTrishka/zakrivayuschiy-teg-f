@@ -9,6 +9,7 @@
   --main-wgth: 400;
   --accent-wgth: 700;
   --themes-background-color: #fff;
+  --themes-main-color: #fff;
   --accent-color: #000;
   --bg-gradient: repeating-linear-gradient(0deg, #d3d3d3 0 2px , rgb(211 211 211 / 0) 2px 4px),
   repeating-linear-gradient(90deg, #d3d3d3 0 2px , rgb(211 211 211 / 0) 2px 4px),
@@ -17,13 +18,14 @@
   --hover-color: #000;
   --button-color-hover: #fff;
   --heart-contour-color: #000;
-  --hear-sparks-color: #FF0000;
+  --heart-main-color: #FF0000;
 }
 
 :root.theme-dark {
   --main-wgth: 465;
   --accent-wgth: 785;
   --themes-background-color: #000;
+  --themes-main-color: #000;
   --accent-color: #00cc14;
   --bg-gradient: repeating-linear-gradient(0deg, #000 0 2px , transparent 2px 4px),
   repeating-linear-gradient(90deg, #000 0 2px , transparent 2px 4px),
@@ -32,7 +34,7 @@
   --hover-color: #fff;
   --button-color-hover: #00cc14;
   --heart-contour-color: #00cc14;
-  --hear-sparks-color: #FF0000;
+  --heart-main-color: #FF0000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,6 +42,7 @@
     --main-wgth: 465;
     --accent-wgth: 785;
     --themes-background-color: #000;
+    --themes-main-color: #000;
     --accent-color: #00cc14;
     --bg-gradient: repeating-linear-gradient(0deg, #000 0 2px , transparent 2px 4px),
     repeating-linear-gradient(90deg, #000 0 2px , transparent 2px 4px),
@@ -48,6 +51,6 @@
     --hover-color: #fff;
     --button-color-hover: #00cc14;
     --heart-contour-color: #00cc14;
-    --hear-sparks-color: #FF0000;
+    --heart-main-color: #FF0000;
   }
 }

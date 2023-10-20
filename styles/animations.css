@@ -30,8 +30,14 @@
 }
 
 
-@keyframes button-hover {
-  50% {
+@keyframes raise-heart {
+  to {
+    scale:  1.5;
+  }
+}
 
+@keyframes sparks-animation {
+  50% {
+    opacity: 1.0;
   }
 }
