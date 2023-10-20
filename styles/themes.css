@@ -11,14 +11,22 @@
   --themes-background-color: #fff;
   --themes-main-color: #fff;
   --accent-color: #000;
-  --bg-gradient: repeating-linear-gradient(0deg, #d3d3d3 0 2px , rgb(211 211 211 / 0) 2px 4px),
-  repeating-linear-gradient(90deg, #d3d3d3 0 2px , rgb(211 211 211 / 0) 2px 4px),
-  repeating-linear-gradient(180deg, #e7e7e7 0 0.01%, #e7e7e7 0.01%, #1a1a1a );
+  --bg-gradient: repeating-linear-gradient(
+      0deg,
+      #d3d3d3 0 2px,
+      rgb(211 211 211 / 0) 2px 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      rgb(211 211 211 / 0) 2px 4px
+    ),
+    repeating-linear-gradient(180deg, #e7e7e7 0 0.01%, #e7e7e7 0.01%, #1a1a1a);
   --stroke-color: #fff;
   --hover-color: #000;
   --button-color-hover: #fff;
   --heart-contour-color: #000;
-  --heart-main-color: #FF0000;
+  --heart-main-color: #ff0000;
 }
 
 :root.theme-dark {
@@ -27,14 +35,18 @@
   --themes-background-color: #000;
   --themes-main-color: #000;
   --accent-color: #00cc14;
-  --bg-gradient: repeating-linear-gradient(0deg, #000 0 2px , transparent 2px 4px),
-  repeating-linear-gradient(90deg, #000 0 2px , transparent 2px 4px),
-  repeating-linear-gradient(180deg, #007f0c , #004306 );
+  --bg-gradient: repeating-linear-gradient(
+      0deg,
+      #000 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(180deg, #007f0c, #004306);
   --stroke-color: #000;
   --hover-color: #fff;
   --button-color-hover: #00cc14;
   --heart-contour-color: #00cc14;
-  --heart-main-color: #FF0000;
+  --heart-main-color: #ff0000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,13 +56,17 @@
     --themes-background-color: #000;
     --themes-main-color: #000;
     --accent-color: #00cc14;
-    --bg-gradient: repeating-linear-gradient(0deg, #000 0 2px , transparent 2px 4px),
-    repeating-linear-gradient(90deg, #000 0 2px , transparent 2px 4px),
-    repeating-linear-gradient(180deg, #007f0c , #004306 );
+    --bg-gradient: repeating-linear-gradient(
+        0deg,
+        #000 0 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(180deg, #007f0c, #004306);
     --stroke-color: #000;
     --hover-color: #fff;
     --button-color-hover: #00cc14;
     --heart-contour-color: #00cc14;
-    --heart-main-color: #FF0000;
+    --heart-main-color: #ff0000;
   }
 }
