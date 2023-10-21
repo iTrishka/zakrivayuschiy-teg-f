@@ -42,7 +42,6 @@
 }
 
 /*aнимация cердца*/
-
 .card__heart-button {
   background-color: var(--themes-main-color);
   border: 2px solid transparent;
