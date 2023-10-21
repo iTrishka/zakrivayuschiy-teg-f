@@ -21,7 +21,7 @@
       rgb(211 211 211 / 0) 2px 4px
     ),
     repeating-linear-gradient(180deg, #e7e7e7 0 0.01%, #e7e7e7 0.01%, #1a1a1a);
-  --hover-color: #000;
+  --hover-color: #000;/*вроде не могу переиспользовать --accent-color, потому что в темной теме мне нужен другой цвет*/
   --button-color-hover: #fff;
   --heart-main-color: #ff0000;
 }
